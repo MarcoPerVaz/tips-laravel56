@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/* Ruta / */
+Route::get( '/', 'PageController@home' )->name( 'home' );
+/* Ruta /nosotros */
+Route::get( '/nosotros', 'PageController@about' )->name( 'about' );

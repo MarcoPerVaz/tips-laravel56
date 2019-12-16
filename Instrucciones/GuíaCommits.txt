@@ -4,3 +4,18 @@ Commit - Creación del proyecto Tips para laravel 5.6
   -Creación de la carpeta Instrucciones
     -Creación y edición del archivo GuíaCommits.txt
   -Edición del archivo readme.md
+Commit - Activar botón de menú
+  -Edición del archivo de rutas routes/web.php
+  -Creación y edición del controlador PageController
+    -php artisan make:controller PageController
+    -Creación y edición del método home()
+    -Creación y edición del método about()
+  -Edición del nombre de la vista welcome.blade.php por app.blade.ph
+  -Edición de la vista app.blade.php
+  -Comando para instalar bootstrap
+    -npm install
+      Nota: Este comando instala todas las dependencias que están en el archivo package.json
+  -Comando para compilar dependencias de package.json
+    -npm run dev
+  -Creación y edición de la vista home.blade.php
+  -Creación y edición de la vista about.blade.php
