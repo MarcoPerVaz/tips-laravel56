@@ -19,3 +19,18 @@ Commit - Activar botón de menú
     -npm run dev
   -Creación y edición de la vista home.blade.php
   -Creación y edición de la vista about.blade.php
+Commit - Helpers personalizados (class active)
+  Nota:Usar un helper para activar un link de navegación
+  Nota:Mejorar el código hecho en el commit anterior
+  -Edición de la vista app.blade.php
+  -Creación y edición del archivo app/helpers.php
+    Nota:Puede tener cualquier nombre
+  Nota:Para poder crear helpers personalizados deben registrarse en composer para que se carguen automáticamente
+  -Edición del archivo composer.json
+    Nota:Se registra el helper personalizado en el array autoload
+      "files": [
+            "app/helpers.php"
+        ]
+  -Comando para actualizar las dependencias agregadas en composer.json
+    -composer dump-autoload
+<----------Fin---------->

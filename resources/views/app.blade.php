@@ -25,10 +25,10 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a href="#" class="navbar-brand">Tips</a>
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item {{ request()->is( '/' ) ? 'active' : '' }}">
+                    <li class="nav-item {{ active( '/' ) }}">
                         <a href="{{ route( 'home' ) }}" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item {{ request()->is( 'nosotros' ) ? 'active' : '' }}">
+                    <li class="nav-item {{ active( 'nosotros' ) }}">
                         <a href="{{ route( 'about' ) }}" class="nav-link">Nosotros</a>
                     </li>
                 </ul>
