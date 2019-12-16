@@ -1,0 +1,6 @@
+<----------Tips para Laravel 5.6---------->
+Commit - Creación del proyecto Tips para laravel 5.6
+  -composer create-project --prefer-dist laravel/laravel tips_laravel56 "5.6.*"
+  -Creación de la carpeta Instrucciones
+    -Creación y edición del archivo GuíaCommits.txt
+  -Edición del archivo readme.md
